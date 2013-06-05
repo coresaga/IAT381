@@ -1,0 +1,63 @@
+html, .buttons{
+
+	
+	font-weight: 400;
+	
+
+	font-size: 14px;
+	line-height:1.4em;
+	color:black;
+}
+
+a, a:visited, a:hover, a:link{
+	color:white;
+	text-decoration: none;
+
+}
+
+div.container{
+
+}
+
+div.body{
+
+}
+
+div.header{
+
+}
+
+h1{
+	font-family:"Arvo";
+	font-weight:700;
+	color:white;
+	font-size: 25px;
+}
+
+.circlebutton{
+	font-family: "Lato"; 
+	font-size:16px;
+	text-align:center;
+	text-decoration:none;
+
+	display:block;
+	width:100px;
+	height:100px;
+	border-radius:50px;
+	
+	color:#BF1F19;
+	line-height:1.4em;	
+	background:#BF1F19;
+
+
+}
+
+	.circlebutton:hover{
+		color:#ccc;
+		text-decoration:none;
+		background:#232ACC
+	}
+
+ul{
+	list-style:none;
+}
