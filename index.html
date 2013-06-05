@@ -1,53 +1,62 @@
 <!DOCTYPE html>
 	
-	<html>
-		<head>
-			<title>The Toy Factory</title>
-			<link rel="styles" type="text/css" href="grid.css"/>
-			<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Arvo:700' rel='stylesheet' type='text/css'>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=TF-8"/>
+		<meta name ="viewport" content="width=device-wdith"><!--Disables page scaling on mobile devices-->
+		<title>The Toy Factory</title>
 
-<!--Sliding Images-->
-			<style>
-    		/* Prevents slides from flashing */
-    			#slides {
-     				display:none;
-   					}
-  			</style>
+		<!--CSS-->
+		<link rel="stylesheet" type="text/css" href="grid.css"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<!--Google Fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Arvo:700' rel='stylesheet' type='text/css'>
 
-			<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-			<script src="jquery.slides.min.js"></script>
+<!--Sliding Images JS-->
+		<style>
+		/* Prevents slides from flashing */
+			#slides {
+ 				display:none;
+					}
+		</style>
 
-			<script>
-				$(function(){
-			  		$("#slides").slidesjs({
-			  			width: 940,
-			    		height: 528
-			  			});
-					});
- 			 </script>
-		</head>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="jquery.slides.min.js"></script>
+
+		<script>
+			$(function(){
+		  		$("#slides").slidesjs({
+		  			width: 940,
+		    		height: 528
+		  			});
+				});
+			 </script>
+	</head>
 
 
 
+
+<!-- =============BODY=========== -->
 
 
 		<body>
 <!--Top bar-->
-			<div id="topBar">
-				<header>
-					<h1><a href="#">The Toy Factory</a></h1>			
-				</header>
-				<!--Search Bar, button and cart-->
-				<form action ="">
-					<input type ="text" name ="searchbox"><br>
-				</form>
-				<div class="barbutton">
-					<!--search button-->
-					<button type="button">Go!</button>
-					<!--Shopping Cart-->
-					<button type="button">Cart</button>
+			<div class="topbar"></div>
+			<div class="homehead">
+					<header>
+						<h1><a href="#">THETOYFACTORY</a></h1>			
+					</header>
+					<!--Search Bar, button and cart-->
+					<form action ="">
+						<input type ="text" name ="searchbox"><br>
+					</form>
+					<div class="barbutton">
+						<!--search button-->
+						<button type="button">Go!</button>
+						<!--Shopping Cart-->
+						<button type="button">Cart</button>
+					</div>
 				</div>
-			</div>
 
 
 <!-- Circular Buttons-->
@@ -81,7 +90,7 @@
 									<li><a href ="#">The Toy Factory</a></li>
 								</div>
 								<!-- Catagory -->
-								<div id="Catagory">
+								<div id="Category">
 									<h1>Catagory</h1>
 									<li><a href ="#">Electronics</a></li>
 									<li><a href ="#">Sports</a></li>
