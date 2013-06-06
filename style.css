@@ -15,6 +15,11 @@ a, a:visited, a:hover, a:link{
 
 }
 
+
+ul{
+	list-style:none;
+}
+
 div.container{
 
 }
@@ -34,30 +39,57 @@ h1{
 	font-size: 25px;
 }
 
-.circlebutton{
+.homebutton{
 	font-family: "Lato"; 
 	font-size:16px;
 	text-align:center;
 	text-decoration:none;
+	vertical-align: middle;
 
-	display:block;
+	display:table-cell; 
 	width:100px;
 	height:100px;
 	border-radius:50px;
-	
+		
 	color:#BF1F19;
 	line-height:1.4em;	
 	background:#BF1F19;
 
-
 }
 
-	.circlebutton:hover{
-		color:#ccc;
+	.homebutton:hover{
+		
 		text-decoration:none;
 		background:#232ACC
 	}
 
-ul{
-	list-style:none;
+
+.subbutton{
+	font-family: "Lato"; 
+	font-size:16px;
+	text-align:center;
+	text-decoration:none;
+	vertical-align: middle;
+
+	display:table-cell; 
+	width:100px;
+	height:100px;
+	border-radius:50px;
+		
+	color:#BF1F19;
+	line-height:1.4em;	
+	background:#BF1F19;
+	float: none;
+
+
+}
+
+	.subbutton:hover{
+		
+		text-decoration:none;
+		background:#232ACC
+	}
+
+#homebutton:hover subbutton{
+	left:0;
 }
