@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+	
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=TF-8"/>
+		<meta name ="viewport" content="width=device-wdith"><!--Disables page scaling on mobile devices-->
+		<title>The Toy Factory</title>
+
+		<!--CSS-->
+		<link rel="stylesheet" type="text/css" href="grid.css"/>
+		<link rel="stylesheet" type="text/css" href="teststyle.css"/>
+		<!--Google Fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Arvo:700'rel='stylesheet' type='text/css'>
+
+<!--Sliding Images JS taken and modified by "http://slidesjs.com/" all credits go to its author-->
+		<style>
+		/* Prevents slides from flashing */
+			#slides {
+ 				display:none;
+					}
+		</style>
+
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="jquery.slides.min.js"></script>
+
+		<script>
+			$(function(){
+		  		$("#slides").slidesjs({
+		  			width: 940,
+		    		height: 528
+		  			});
+				});
+			 </script>
+	</head>
+
+
+
+
+<!-- =============BODY=========== -->
+
+
+		<body>
+<!--Top bar-->
+			
+
+<!-- Circular Buttons-->
+			<div class="buttons">
+					<nav>
+						<ul class="homecolumn">
+							<!-- Insert button links or ways to deal with it -->
+							<!--On sale (new page) -->
+							<li class="hodor"><a href = "#" class="homebutton">On Sale</a></li>
+							<!-- Catalogue (shows catagory buttons in grid) -->
+							<li><a href = "#" class="homebutton">Browse Catalogue</a>
+								<ul class="buttongrid">
+									<!-- AGE -->
+									<li ><a href ="#">New Born</a></li>
+									<li ><a href ="#">Age 1-2</a></li>
+									<li ><a href ="#">Age 3-4</a></li>
+									<li ><a href ="#">Age 5-8</a></li>
+									<li ><a href ="#">Age 9-12</a></li>
+									<li ><a href ="#">Age 13+</a></li>
+									
+									<!-- Brand -->
+									
+									<li ><a href ="#">Disney</a></li>
+									<li ><a href ="#">Hasbro</a></li>
+									<li ><a href ="#">Mattel</a></li>
+									<li ><a href ="#">Lego</a></li>
+									<li ><a href ="#">Import</a></li>
+									<li ><a href ="#">The Toy Factory</a></li>
+								
+									<!-- Catagory -->
+
+									<li><a href ="#">Electronics</a></li>
+									<li><a href ="#">Sports</a></li>
+									<li><a href ="#">Board Games</a></li>
+									<li><a href ="#">Collectibles</a></li>
+								</ul>
+							</li>
+
+							<!-- Most popular(new page)-->
+							<li><a href = "#" class="homebutton">Most Popular</a></li>
+						</ul>
+					</nav>
+			</div>
+
+<!--BACKGROUND/NEWS-->
+		
+			<div id="slides">
+				<img src="http://placehold.it/940x528">
+				<img src="http://placehold.it/940x528">
+				<img src="http://placehold.it/940x528">
+				<img src="http://placehold.it/940x528">
+				<img src="http://placehold.it/940x528">
+			</div>
+		</body>
+	</html>

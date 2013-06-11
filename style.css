@@ -1,9 +1,7 @@
-html, .buttons{
+html{
 
 	
 	font-weight: 400;
-	
-
 	font-size: 14px;
 	line-height:1.4em;
 	color:black;
@@ -20,22 +18,11 @@ ul{
 	list-style:none;
 }
 
-div.container{
-
-}
-
-div.body{
-
-}
-
-div.header{
-
-}
 
 h1{
 	font-family:"Arvo";
 	font-weight:700;
-	color:white;
+	color:black;
 	font-size: 25px;
 }
 
@@ -43,25 +30,44 @@ h1{
 
 
 nav ul ul{
+	
+	max-width: 900px;
+	position:absolute;
+	left:150px;
+	top:210px;
 	display: none;
 }
 
-	nav ul li:hover >ul {
-		display:block;
+	nav ul li:hover > ul {
+		display:inline-table;
 	}
 
 
-.homebutton{
+
+
+
+
+.homecolumn{
+	
+	
+
+	margin-right:1100px;
+	max-width: 0px;
+	border-left:solid rgba(1,0,0,0); 
+}
+
+
+.homebuttons{
+	
 	font-family: "Lato"; 
 	font-size:14px;
 	font-weight: 300;
 	text-align:center;
 	text-decoration:none;
 	color:#BF1F19;
-
-	position:relative;
-	top:50px;
-	display:block; 
+	display:inline-block;
+	vertical-align:middle;
+	
 	width:100px;
 	height:100px;
 	border-radius:50px;
@@ -69,46 +75,43 @@ nav ul ul{
 	
 	line-height:1.4em;	
 	background:#BF1F19;
+	margin-bottom: 50px;
 
 }
 
-	.homebutton:hover{
+	.homebuttons:hover{
 		
 		text-decoration:none;
 		background:#232ACC
 	}
 
 
-.buttongrid {
-	
-	max-width: 900px;
-	position:absolute;
-	left:100px;
-	top:200px;
-
-
-}
 
 .subbutton{
+
 	font-family: "Lato"; 
 	font-size:14px;
 	font-weight: 300;
 	text-align:center;
 	text-decoration:none;
-	margin:20px 20px 20px 20px;
 
-	display:inline-table;
+	margin:0px 20px 20px 20px;
+	
+
+	display: inline-block;
 
 	width:100px;
 	height:100px;
-	min-width: 100px;
+
 	border-radius:50px;
 
 		
 	color:#BF1F19;
-	line-height:1.4em;	
+	line-height:100px;	
 	background:#BF1F19;
-	float: none;
+	float:left;
+
+	
 
 }
 

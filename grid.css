@@ -1,6 +1,6 @@
 .topbar{
 	background: #3A3F42;
-	height:40px;
+	height:45px;
 	position:absolute;
 	top:0px;
 	left: 0px;
@@ -8,3 +8,23 @@
 	z-index:-1;
 }
 
+
+
+input{
+	position:relative;
+	border:solid;
+	margin-right:50px;
+	display:block;
+	
+}
+
+
+
+button{
+	border:solid;
+	position:absolute;
+	display:block;
+	float:right;
+	
+
+}

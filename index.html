@@ -13,15 +13,8 @@
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Arvo:700' rel='stylesheet' type='text/css'>
 
 <!--Sliding Images JS-->
-		<style>
-		/* Prevents slides from flashing */
-			#slides {
- 				display:none;
-					}
-		</style>
-
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-		<script src="jquery.slides.min.js"></script>
+		<script src="js/jquery.slides.min.js"></script>
 
 		<script>
 			$(function(){
@@ -46,17 +39,18 @@
 					<header>
 						<h1><a href="#">THETOYFACTORY</a></h1>			
 					</header>
-					<!--Search Bar, button and cart-->
-					<form action ="Search Here!">
-						<input type ="text" name ="searchbox"><br>
-					</form>
-					<div class="barbutton">
+				
+					<div class="searchcart">
+							<!--Search Bar, button and cart-->
+						<form action ="Search Here!">
+							<input type ="text" name ="searchbox" placeholder ="Search here!"><br>
+						</form>
 						<!--search button-->
 						<button type="button">Go!</button>
 						<!--Shopping Cart-->
 						<button type="button">Cart</button>
 					</div>
-				</div>
+				</div> 
 
 
 <!-- Circular Buttons-->
@@ -65,10 +59,10 @@
 						<ul class="homecolumn">
 							<!-- Insert button links or ways to deal with it -->
 							<!--On sale (new page) -->
-							<li><a href = "#" class="homebutton">On Sale</a></li>
+							<li class="homebuttons"><a href = "#" >On Sale</a></li>
 							<!-- Catalogue (shows catagory buttons in grid) -->
-							<li><a href = "#" class="homebutton">Browse Catalogue</a>
-								<ul class="buttongrid">
+							<li class="homebuttons"><a href = "#" >Browse Catalogue</a>
+								<ul>
 									<!-- AGE -->
 									<li class="subbutton"><a href ="#">New Born</a></li>
 									<li class="subbutton"><a href ="#">Age 1-2</a></li>
@@ -96,18 +90,17 @@
 							</li>
 
 							<!-- Most popular(new page)-->
-							<li><a href = "#" class="homebutton">Most Popular</a></li>
+							<li class="homebuttons"><a href = "#" >Most Popular</a></li>
 						</ul>
 					</nav>
 			</div>
 
 <!--BACKGROUND/NEWS-->
 			<div id="slides">
-				<img src="http://placehold.it/940x528">
-    			<img src="http://placehold.it/940x528">
-   				<img src="http://placehold.it/940x528">
-   				<img src="http://placehold.it/940x528">
-    			<img src="http://placehold.it/940x528">
+				<img src="img/example-slide-1.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
+     			 <img src="img/example-slide-2.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
+     			 <img src="img/example-slide-3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
+     			 <img src="img/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
  			</div>
 
 		</body>

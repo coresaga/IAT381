@@ -1,0 +1,17 @@
+nav ul ul{
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display:block;
+	}
+
+
+	.homecolumn{
+		margin-right:1000px;
+		border: solid;
+	}
+
+	.hodor{
+		margin-bottom:20px;
+	}
