@@ -48,12 +48,11 @@ nav ul ul{
 
 
 .homecolumn{
-	
-	
 
 	margin-right:1100px;
 	max-width: 0px;
 	border-left:solid rgba(1,0,0,0); 
+	z-index:3;
 }
 
 
@@ -65,7 +64,8 @@ nav ul ul{
 	text-align:center;
 	text-decoration:none;
 	color:#BF1F19;
-	display:inline-block;
+	display:block;
+	min-width: 100px;
 	vertical-align:middle;
 	
 	width:100px;
