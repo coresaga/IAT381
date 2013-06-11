@@ -11,20 +11,21 @@
 
 
 input{
-	position:relative;
-	border:solid;
-	margin-right:50px;
+
+	position:absolute;
+	right:110px;
+	top:10px;
+	margin-right:0px;
 	display:block;
-	
+	width:200px;
 }
 
 
 
-button{
-	border:solid;
-	position:absolute;
+.barbuttons{
+	top:10px;
+	right:10px;
+	position: absolute;
 	display:block;
 	float:right;
-	
-
 }

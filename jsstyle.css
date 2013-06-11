@@ -2,11 +2,12 @@
 
 
 #slides {
+	
       display: none
     }
 
     .container {
-      margin: 0 auto
+      margin: 0 auto;
     }
 
     /* For tablets & smart phones */
@@ -41,7 +42,6 @@
       }
     }
 
-
     .slidesjs-pagination {
       margin: 6px 0 0;
       float: right;
@@ -64,9 +64,8 @@
       overflow: hidden;
     }
 
-      .slidesjs-pagination li a.active,
-    .slidesjs-pagination li a:hover.active {
-      background-position: 0 -13px
+    .slidesjs-pagination li a.active,.slidesjs-pagination li a:hover.active {
+    	background-position: 0 -13px
     }
 
     .slidesjs-pagination li a:hover {
