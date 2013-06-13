@@ -9,7 +9,7 @@
 		<!--CSS-->
 		<link rel="stylesheet" type="text/css" href="grid.css"/>
 		<link rel="stylesheet" type="text/css" href="style.css"/>
-		<link rel="stylesheet" type="text/css" href="jsstyle.css"/
+		<link rel="stylesheet" type="text/css" href="jsstyle.css"/>
 		<!--Google Fonts-->
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Arvo:700' rel='stylesheet' type='text/css'>
 
@@ -20,8 +20,7 @@
 		<script>
 			$(function(){
 		  		$("#slides").slidesjs({
-		  			width: 940,
-		    		height: 528
+		  			height:400
 		  			});
 				});
 			 </script>
@@ -34,47 +33,45 @@
 
 
 		<body>
-<!--Top bar-->
+			<!--Top bar-->
 			<div class="topbar"></div>
-			<div class="homehead">
-					<header>
+					<header class="homehead">
 						<h1><a href="#">THETOYFACTORY</a></h1>			
-					</header>
-				
-					<div class="searchcart">
-							<!--Search Bar, button and cart-->
-						<form action ="Search Here!">
-							<input type ="text" name ="searchbox" placeholder ="Search here!"><br>
-						</form>
-						<div class="barbuttons">
+					</header>	
+
+
+			<div class="searchcart">
+					<!--Search Bar, button and cart-->
+				<form action ="Search Here!">
+					<input type ="text" name ="searchbox" placeholder ="Search here!"><br>
+				</form>
+					<div class="barbuttons">
 						<!--search button-->
 						<button type="button">Go!</button>
 						<!--Shopping Cart-->
 						<button type="button">Cart</button>
 					</div>
-					</div>
-				</div> 
+				</div>
 
-				<!--BACKGROUND/NEWS-->
-		<div class="container">
-			<div id="slides">
-				<img src="img/example-slide-1.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
-     			 <img src="img/example-slide-2.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
-     			 <img src="img/example-slide-3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
-     			 <img src="img/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
- 			</div>
- 		</div>
+			<!--BACKGROUND/NEWS-->
+			<div class="container">
+				<div id="slides">
+					<img src="img/example-slide-1.jpg">
+	     			<img src="img/example-slide-2.jpg">
+	     			<img src="img/example-slide-3.jpg">
+	     			<img src="img/example-slide-4.jpg">
+	 			</div>
+	 		</div>
 
 
-<!-- Circular Buttons-->
-			<div class="buttons">
-					<nav>
+			<!-- Circular Buttons-->
+					<nav class="buttons">
 						<ul class="homecolumn">
 							<!-- Insert button links or ways to deal with it -->
 							<!--On sale (new page) -->
-							<li class="homebuttons"><a href = "#" >On Sale</a></li>
+							<li class="homebuttons"><a href = "#" class="test">On Sale</a></li>
 							<!-- Catalogue (shows catagory buttons in grid) -->
-							<li class="homebuttons"><a href = "#" >Browse Catalogue</a>
+							<li class="homebuttons"><a href = "#" class="test" >Browse Catalogue</a>
 								<ul>
 									<!-- AGE -->
 									<li class="subbutton"><a href ="#">New Born</a></li>
@@ -103,11 +100,9 @@
 							</li>
 
 							<!-- Most popular(new page)-->
-							<li class="homebuttons"><a href = "#" >Most Popular</a></li>
+							<li class="homebuttons"><a href = "#" class="test" >Most Popular</a></li>
 						</ul>
 					</nav>
-			</div>
-
 
 		</body>
 	</html>
