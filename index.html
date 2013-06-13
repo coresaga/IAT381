@@ -1,108 +1,84 @@
-<!DOCTYPE html>
-	
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=TF-8"/>
-		<meta name ="viewport" content="width=device-wdith"><!--Disables page scaling on mobile devices-->
 		<title>The Toy Factory</title>
-
-		<!--CSS-->
-		<link rel="stylesheet" type="text/css" href="grid.css"/>
-		<link rel="stylesheet" type="text/css" href="style.css"/>
-		<link rel="stylesheet" type="text/css" href="jsstyle.css"/>
-		<!--Google Fonts-->
+		<link rel="stylesheet" href="style.css" title="style" type="text/css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="buttonstyle.css" title="style" type="text/css" media="screen" charset="utf-8">
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Arvo:700' rel='stylesheet' type='text/css'>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" charset="utf-8"></script>
+		<script src="toyfactory.js" charset="utf-8"></script>
 
-<!--Sliding Images JS-->
-		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-		<script src="js/jquery.slides.min.js"></script>
 
-		<script>
-			$(function(){
-		  		$("#slides").slidesjs({
-		  			height:400
-		  			});
-				});
-			 </script>
+		
 	</head>
+	<body>
+		<header>
+			<h1 id="homelink"><a href="#">THETOYFACTORY</a></h1>
+		</header>
+		<!--===================================Search Bar Form=================================-->
+		<form action ="Search Here!">
+			<input type ="text" name ="searchbox" placeholder ="Search here!"><br>
+		</form>
 
 
+		<!--===================================Search Button===================================-->
+		<button id="searchbutton" type="button">Go!</button>
 
 
-<!-- =============BODY=========== -->
+		<!--===================================Search Button===================================-->
+	
+		<a id="cart" href ="#">My Cart</a>
+
+		<!--===================================Nav bare and buttons============================-->
+
+		<nav class="buttons">
+			<ul class="homecolumn">
+				<!-- Insert button links or ways to deal with it -->
+				<!--On sale (new page) -->
+				<li class="homebuttons"><a href = "#" class="center">On Sale</a></li>
+				<!-- Catalogue (shows catagory buttons in grid) -->
+				<li class="homebuttons"><a href = "#" class="center" >Browse Catalogue</a>
+					<ul>
+						<!-- AGE -->
+						<li class="subbutton"><a href ="#">New Born</a></li>
+						<li class="subbutton"><a href ="#">Age 1-2</a></li>
+						<li class="subbutton"><a href ="#">Age 3-4</a></li>
+						<li class="subbutton"><a href ="#">Age 5-8</a></li>
+						<li class="subbutton"><a href ="#">Age 9-12</a></li>
+						<li class="subbutton"><a href ="#">Age 13+</a></li>
+						
+						<!-- Brand -->						
+						<li class="subbutton"><a href ="#">Disney</a></li>
+						<li class="subbutton"><a href ="#">Hasbro</a></li>
+						<li class="subbutton"><a href ="#">Mattel</a></li>
+						<li class="subbutton"><a href ="#">Lego</a></li>
+						<li class="subbutton"><a href ="#">Import</a></li>
+						<li class="subbutton"><a href ="#">The Toy Factory</a></li>
+					
+						<!-- Catagory -->
+						<li class="subbutton"><a href ="#">Electronics</a></li>
+						<li class="subbutton"><a href ="#">Sports</a></li>
+						<li class="subbutton"><a href ="#">Board Games</a></li>
+						<li class="subbutton"><a href ="#">Collectibles</a></li>
+					</ul>
+				</li>
+				<!-- Most popular(new page)-->
+				<li class="homebuttons"><a href = "#" class="center" >Most Popular</a></li>
+			</ul>
+		</nav>
 
 
-		<body>
-			<!--Top bar-->
-			<div class="topbar"></div>
-					<header class="homehead">
-						<h1><a href="#">THETOYFACTORY</a></h1>			
-					</header>	
+		<!--===================================News/events switchter============================-->
+		<section id="wrapper">
+			<section id="canvas">				
+				<a class="change1" href="#">B</a>
+				<a class="change2" href="#">B</a>
+				<a class="change3" href="#">B</a>
+				<a class="change4" href="#">B</a>
+			</section>
+		</section>
+	</body>
+</html>
 
 
-			<div class="searchcart">
-					<!--Search Bar, button and cart-->
-				<form action ="Search Here!">
-					<input type ="text" name ="searchbox" placeholder ="Search here!"><br>
-				</form>
-					<div class="barbuttons">
-						<!--search button-->
-						<button type="button">Go!</button>
-						<!--Shopping Cart-->
-						<button type="button">Cart</button>
-					</div>
-				</div>
-
-			<!--BACKGROUND/NEWS-->
-			<div class="container">
-				<div id="slides">
-					<img src="img/example-slide-1.jpg">
-	     			<img src="img/example-slide-2.jpg">
-	     			<img src="img/example-slide-3.jpg">
-	     			<img src="img/example-slide-4.jpg">
-	 			</div>
-	 		</div>
-
-
-			<!-- Circular Buttons-->
-					<nav class="buttons">
-						<ul class="homecolumn">
-							<!-- Insert button links or ways to deal with it -->
-							<!--On sale (new page) -->
-							<li class="homebuttons"><a href = "#" class="test">On Sale</a></li>
-							<!-- Catalogue (shows catagory buttons in grid) -->
-							<li class="homebuttons"><a href = "#" class="test" >Browse Catalogue</a>
-								<ul>
-									<!-- AGE -->
-									<li class="subbutton"><a href ="#">New Born</a></li>
-									<li class="subbutton"><a href ="#">Age 1-2</a></li>
-									<li class="subbutton"><a href ="#">Age 3-4</a></li>
-									<li class="subbutton"><a href ="#">Age 5-8</a></li>
-									<li class="subbutton"><a href ="#">Age 9-12</a></li>
-									<li class="subbutton"><a href ="#">Age 13+</a></li>
-									
-									<!-- Brand -->
-									
-									<li class="subbutton"><a href ="#">Disney</a></li>
-									<li class="subbutton"><a href ="#">Hasbro</a></li>
-									<li class="subbutton"><a href ="#">Mattel</a></li>
-									<li class="subbutton"><a href ="#">Lego</a></li>
-									<li class="subbutton"><a href ="#">Import</a></li>
-									<li class="subbutton"><a href ="#">The Toy Factory</a></li>
-								
-									<!-- Catagory -->
-
-									<li class="subbutton"><a href ="#">Electronics</a></li>
-									<li class="subbutton"><a href ="#">Sports</a></li>
-									<li class="subbutton"><a href ="#">Board Games</a></li>
-									<li class="subbutton"><a href ="#">Collectibles</a></li>
-								</ul>
-							</li>
-
-							<!-- Most popular(new page)-->
-							<li class="homebuttons"><a href = "#" class="test" >Most Popular</a></li>
-						</ul>
-					</nav>
-
-		</body>
-	</html>
+http://www.marcofolio.net/webdesign/advanced_jquery_background_image_slideshow.html
+http://www.jotform.org/jquery/jquery-fullscreen-background-image-slider-with-css3/
