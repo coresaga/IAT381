@@ -1,4 +1,4 @@
-html, body { font-size: 100%; height: 100%; overflow: hidden;}
+html, body { font-size: 100%; height: 100%; overflow-x: hidden;}
 
 body {
 	font-family: sans-serif;
@@ -72,25 +72,21 @@ form{
 
 .buttons{
 	position:relative;
-	z-index: 100;
+	z-index: 0;
 	top:0%;
 	text-decoration: none;
 	padding-right:100%;
-	
-	
-
-}
+	}
 
 #imageview {
 	top:0px;
-	left:200px;
-	right:40%;
+	left:230px;
+	right:50%;
 	bottom:0px;
 	position:absolute;
-	border:solid;
-}
+	}
+
 	#large { 
-	
 		margin-top:55px;
 		width: 100%;
 		height: 50%;
@@ -104,15 +100,14 @@ form{
 	}
 
 .thumbs{
-	margin-top:15px;
 	}
 
 .change1, .change2, .change3, .change4{
 	
 	margin-right:10px;
-	background-color: gray;
-	width:100px;
-	height:100px;
+	padding-top: 15px;
+	width:80px;
+	height:80px;
 	right:0%;
 	z-index: 5;
 }
@@ -125,4 +120,29 @@ form{
 	.change1:hover, .change2:hover, .change3:hover, .change4:hover{
 		color:009AB0;
 		background-color:009AB0;
+	}
+
+.textcolumn{
+
+	position:absolute;
+	left:50%;
+	width:26%;
+	top:20px;
+	padding: 15px;
+
+}
+	#description{
+		font-family: Lato;
+		font-weight: 300;
+	}
+.purchasecolumn{
+	
+	position:absolute;
+	padding:20px 30px 0px 30px; 
+	top:20px;
+	left:76%;
+}
+	
+	#orderprice{
+
 	}
