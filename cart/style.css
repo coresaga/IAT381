@@ -19,6 +19,18 @@ a, a:visited, a:hover, a:link{
 
 }
 
+.pLink{
+	color:#366DFF;
+}
+
+	.pLink:visited{
+		color:#6E18FF;
+	}
+
+	.pLink:hover{
+		color:#009AB0;
+
+	}
 
 header {
 	width: 100%;
@@ -119,6 +131,6 @@ form{
 	}
 
 	.change1:hover, .change2:hover, .change3:hover, .change4:hover{
-		color:009AB0;
-		background-color:009AB0;
+		color:#009AB0;
+		background-color:#009AB0;
 	}

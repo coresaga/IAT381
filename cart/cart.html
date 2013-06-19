@@ -1,0 +1,122 @@
+<html>
+	<head>
+		<title>My Cart - The Toy Factory </title>
+		<link rel="stylesheet" href="style.css" title="style" type="text/css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="buttonstyle.css" title="style" type="text/css" media="screen" charset="utf-8">
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Arvo:700' rel='stylesheet' type='text/css'>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" charset="utf-8"></script>
+		
+
+
+		
+	</head>
+	<body>
+		<header>
+			<h1 id="homelink"><a href="#">THETOYFACTORY</a></h1>
+		</header>
+		<!--===================================Search Bar Form=================================-->
+		<form action ="Search Here!">
+			<input type ="text" name ="searchbox" placeholder ="Search here!"><br>
+		</form>
+
+
+		<!--===================================Search Button===================================-->
+		<button id="searchbutton" type="button">Go!</button>
+
+
+		<!--===================================Search Button===================================-->
+	
+		<a id="cart" href ="#">My Cart</a>
+
+		<!--===================================Nav bare and buttons============================-->
+
+		<nav class="buttons">
+			<ul class="homecolumn">
+				<!-- Insert button links or ways to deal with it -->
+				<!--On sale (new page) -->
+				<li class="homebuttons"><a href = "#" class="center">On Sale</a></li>
+				<!-- Catalogue (shows catagory buttons in grid) -->
+				<li class="homebuttons"><a href = "#" class="center" >Browse Catalogue</a>
+					<ul>
+						<!-- AGE -->
+						<li class="subbutton"><a href ="#">New Born</a></li>
+						<li class="subbutton"><a href ="#">Age 1-2</a></li>
+						<li class="subbutton"><a href ="#">Age 3-4</a></li>
+						<li class="subbutton"><a href ="#">Age 5-8</a></li>
+						<li class="subbutton"><a href ="#">Age 9-12</a></li>
+						<li class="subbutton"><a href ="#">Age 13+</a></li>
+						
+						<!-- Brand -->						
+						<li class="subbutton"><a href ="#">Disney</a></li>
+						<li class="subbutton"><a href ="#">Hasbro</a></li>
+						<li class="subbutton"><a href ="#">Mattel</a></li>
+						<li class="subbutton"><a href ="#">Lego</a></li>
+						<li class="subbutton"><a href ="#">Import</a></li>
+						<li class="subbutton"><a href ="#">The Toy Factory</a></li>
+					
+						<!-- Catagory -->
+						<li class="subbutton"><a href ="#">Electronics</a></li>
+						<li class="subbutton"><a href ="#">Sports</a></li>
+						<li class="subbutton"><a href ="#">Board Games</a></li>
+						<li class="subbutton"><a href ="#">Collectibles</a></li>
+					</ul>
+				</li>
+				<!-- Most popular(new page)-->
+				<li class="homebuttons"><a href = "#" class="center" >Most Popular</a></li>
+			</ul>
+		</nav>
+
+		<div class="cartColumn">
+			<h2>Shopping Cart</h2>
+			<div id="columns">
+				<span>item</span>
+				<span>in stock?</span>
+				<span>qty</span>
+				<span>delete</span>
+				<span>price</span>
+			</div>
+
+			<ul id="incart">
+				<li><a href ="#" class="pLink">Product 1</a>
+					<span>In Stock</span>
+					<input type="number" name="qbox" placeholder="1" min="1" >
+					<button id="delete" type="button">Remove</button>
+					<span>$6.99</span>
+				</li>
+
+				<li><a href ="#" class="pLink">Product 2</a>
+					<span>In Stock</span>
+					<input type="number" name="qbox" placeholder="1" min="1" >
+					<button id="delete" type="button">Remove</button>
+					<span>$6.99</span>
+				</li>
+				
+				<div id="shipping">
+					<h2>Shipping</span>
+					<span>Postal Code:</span>
+					<input type="value" name="areacode" placeholder="1" maxlength="6" >
+					<button id="shipping" type="button">Calculate Shipping</button>
+				</div>
+
+				<div id="total">
+					<span>Your Total: $13.98<span>
+				</div>
+
+
+
+
+		<div class="optionsColumn">
+			<ul>
+				<li><a href="#">Update Cart</a></li>
+				<li><a href="#">Continue Shopping</a></li>
+				<li><a href="#">Check Out</a></li>
+			</ul>
+
+		</div>
+
+
+		
+	</body>
+</html>
+
+
