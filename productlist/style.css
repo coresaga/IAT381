@@ -1,0 +1,124 @@
+html, body { font-size: 100%; height: 100%;overflow-x:hidden;}
+
+body {
+	font-family: sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1;
+	background: #F7F7F7;
+	color: #333333;
+	padding: 0;
+	margin: 0;
+	position: relative;
+
+}
+
+a, a:visited, a:hover, a:link{
+	color:white;
+	text-decoration: none;
+
+}
+
+
+header {
+	width: 100%;
+	height: 38px;
+	background: #3A3F42;
+	padding: 0 20px;
+	position: relative;
+	z-index: 2;
+	text-decoration: none;
+}
+
+h1{
+	font-family:"Arvo";
+	font-weight: normal;
+	color:black;
+	font-size: 25px;
+	position:absolute;
+	top:-10;
+}
+
+
+form{
+	position:absolute;
+	top:5px;
+	z-index: 3;
+	float:right;
+	right:110px;
+}
+
+#searchbutton{
+	z-index: 3;
+	position:absolute;
+	top:5px;
+	right:70px;
+
+}
+
+#cart{
+	z-index: 3;
+	position:absolute;
+	top:10px;
+	right:10px;
+
+}
+
+	#cart:hover{
+		text-decoration: underline;
+	}
+
+
+
+.buttons{
+	position:relative;
+	z-index: 3;
+	top:0%;
+	text-decoration: none;
+	padding-right:100%;
+
+
+}
+
+#wrapper {
+	top:37px;
+	bottom:0;
+	left:0;
+	right:0;
+	position:absolute;
+}
+	#canvas { 
+		width: 100%;
+		height: 100%;
+		position: relative;
+		background-color: #cde7f2;
+		background-image: url('http://placehold.it/1920x1080');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		z-index: 1;
+	}
+
+
+.change1, .change2, .change3, .change4{
+	position:relative;
+	top:95%;
+	float:right;
+	margin-right:10px;
+	background-color: gray;
+	width:20px;
+	height:20px;
+	right:0%;
+	z-index: 5;
+
+	}
+
+
+	.change1:visited, .change2:visited, .change3:visited, .change4:visited{
+		color:gray;
+	}
+
+	.change1:hover, .change2:hover, .change3:hover, .change4:hover{
+		color:009AB0;
+		background-color:009AB0;
+	}
