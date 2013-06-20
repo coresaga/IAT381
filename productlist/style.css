@@ -122,3 +122,9 @@ form{
 		color:009AB0;
 		background-color:009AB0;
 	}
+
+	a#pages:visited, a#pages{
+		color:black;
+		border:solid;
+	}
+
