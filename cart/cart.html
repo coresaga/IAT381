@@ -1,6 +1,11 @@
+<!DOCTYPE html>
+
+
 <html>
 	<head>
 		<title>My Cart - The Toy Factory </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name ="viewport" content="width=device-wdith">
 		<link rel="stylesheet" href="style.css" title="style" type="text/css" media="screen" charset="utf-8">
 		<link rel="stylesheet" href="buttonstyle.css" title="style" type="text/css" media="screen" charset="utf-8">
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Arvo:700' rel='stylesheet' type='text/css'>
@@ -15,7 +20,7 @@
 			<h1 id="homelink"><a href="#">THETOYFACTORY</a></h1>
 		</header>
 		<!--===================================Search Bar Form=================================-->
-		<form action ="Search Here!">
+		<form action ="Search">
 			<input type ="text" name ="searchbox" placeholder ="Search here!"><br>
 		</form>
 
@@ -80,7 +85,7 @@
 				<li><a href ="#" class="pLink">Product 1</a>
 					<span>In Stock</span>
 					<input type="number" name="qbox" placeholder="1" min="1" >
-					<button id="delete" type="button">Remove</button>
+					<button id="removefromcart" type="button">Remove</button>
 					<span>$6.99</span>
 				</li>
 
@@ -93,14 +98,14 @@
 			</ul>
 
 				<div id="shipping">
-					<h2>Shipping</span>
+					<h2>Shipping</h2>
 					<span>Postal Code:</span>
-					<input type="value" name="areacode" placeholder="1" maxlength="6" >
-					<button id="shipping" type="button">Calculate Shipping</button>
+					<input type="value" name="areacode" maxlength="6">
+					<button id="calculate" type="button">Calculate Shipping</button>
 				</div>
 
 				<div id="total">
-					<span>Your Total: $13.98<span>
+					<span>Your Total: $13.98</span>
 				</div>
 
 		</section>
