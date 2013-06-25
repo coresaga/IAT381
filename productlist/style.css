@@ -80,13 +80,7 @@ form{
 
 }
 
-#wrapper {
-	top:37px;
-	bottom:0;
-	left:0;
-	right:0;
-	position:absolute;
-}
+
 	#canvas { 
 		width: 100%;
 		height: 100%;
@@ -128,3 +122,23 @@ form{
 		border:solid;
 	}
 
+
+
+.featureditems, .featureditems:visited{
+	color: black;
+}
+
+	.featureditems:hover{
+		color:blue;
+	}
+
+
+#textcolumn{
+
+	position:absolute;
+	left:50%;
+	width:26%;
+	top:20px;
+	padding: 15px;
+
+}
