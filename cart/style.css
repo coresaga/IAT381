@@ -133,4 +133,21 @@ form{
 	.change1:hover, .change2:hover, .change3:hover, .change4:hover{
 		color:#009AB0;
 		background-color:#009AB0;
+
 	}
+
+	#cartColumn{
+	top:40px;
+	left:230px;
+	right:0%;
+	bottom:0px;
+	position:absolute;
+	}
+
+	#columns{
+	top:40px;
+	right: 300px;
+	position:absolute;
+
+	}
+
