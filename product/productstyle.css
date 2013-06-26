@@ -132,7 +132,7 @@ form{
 
 }
 	#description{
-		font-family: Lato;
+		font-family: "LATO";
 		font-weight: 300;
 	}
 .purchasecolumn{
@@ -154,15 +154,20 @@ form{
 
 
 .breadcrumbs{
-	font-family: "Lato";
+	font-family: "LATO";
 	font-size: 0.8em;
 	color:#787875;
-}
+	padding:5px 10px 5px 5px;
+	}
 
-	.breadcrubs:visited{
+	.breadcrumbs:visited{
 		color:#787875;
 	}
 
+	.breadcrumbs:hover{
+		background-color: #009AB0;
+		color:white;
+	}
 
 h2{
 	margin-top:5px;
