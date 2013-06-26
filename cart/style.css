@@ -162,7 +162,7 @@ form{
 	padding-right: 20px;
 	margin-right: 50px;
 	text-align: left;
-	background-color:#BF1F19;
+	background-color:#3A3F42;
 	height:26px;
 	color: white;
 	font-family: "LATO";
@@ -202,6 +202,17 @@ form{
 
 	}
 
+	.tb2{
+	height:10px;
+	width:72px;
+	margin-right: 220px;
+	}
+
+	#calculate{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	}
+
 	.removefromcart{
 	margin-left: 100px;
 	padding-right: 35px;
@@ -212,9 +223,60 @@ form{
 
 
 	#shipping{
-	top:50px;
+	top:150px;
 	position:absolute;
-	left:900px;
+	left:230px;
 	font-size:10px;
+	margin-top: 20px;
+	background-color: #F7F7F7;
 	}
+
+	.postal{
+	top:30px;
+	position: absolute;
+	padding-top: 4px;
+	padding-bottom:0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 0px;
+	margin-left: 110px;
+	margin-top:0px;
+	top:10px;
+	text-align: center;
+	background-color:#3A3F42;
+	height:15px;
+	color: white;
+	font-family: "LATO";
+	font-size: 10px;
+
+	}
+
+	.total{
+	padding-top: 4px;
+	padding-bottom:4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	position:absolute;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	font-size: 15px;
+	background-color:#3A3F42;
+	height:15px;
+	color: white;
+	font-family: "LATO";
+
+	}
+
+	.totalprice{
+	font-size: 18px;
+	margin-left: 100px;
+	margin-top: 5px;
+	position:absolute;
+	border:solid;
+	border-width:1px;
+	border-color:grey;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+
 	
