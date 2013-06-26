@@ -15,21 +15,27 @@ body {
 
 a, a:visited, a:hover, a:link{
 	color:white;
-	text-decoration: none;
+	list-style: none;
 
 }
 
 .pLink{
 	color:#366DFF;
+	text-decoration: none;
+	list-style: none;
+
 }
 
 	.pLink:visited{
 		color:#6E18FF;
+		text-decoration: none;
+		list-style: none;
 	}
 
 	.pLink:hover{
 		color:#009AB0;
-
+		text-decoration: none;
+		list-style: none;
 	}
 
 header {
@@ -142,12 +148,132 @@ form{
 	right:0%;
 	bottom:0px;
 	position:absolute;
+	z-index:5;
+	right:35%;
+	font-size: 10px;
 	}
 
-	#columns{
-	top:40px;
-	right: 300px;
-	position:absolute;
+	.item {
+	padding-top: 2px;
+	padding-bottom:2px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-right: 10px;
+	text-align: left;
+	background-color:#BF1F19;
+	height:26px;
+	color: white;
+	font-family: "Lato";
+	font-size: 10px;
 
 	}
 
+	.instock {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 10px;
+	text-align: left;
+	background-color:#BF1F19;
+	height:26px;
+	color: white;
+	font-family: "Lato";
+	font-size: 10px;
+	padding: 2px 4px;
+
+	}
+
+	.stock{
+	margin-right: 16px;
+	padding-left:30px;
+	}
+
+	.qty{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 10px;
+	text-align: left;
+	background-color:#BF1F19;
+	height:26px;
+	color: white;
+	font-family: "Lato";
+	font-size: 10px;
+
+	padding: 2px 4px;
+
+	}
+
+	.delete{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 10px;
+	text-align: left;
+	background-color:#BF1F19;
+	height:26px;
+	color: white;
+	font-family: "Lato";
+	font-size: 10px;
+	
+	padding: 2px 4px;
+
+	}
+	
+	.price{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 10px;
+	text-align: left;
+	background-color:#BF1F19;
+	height:26px;
+	color: white;
+	font-family: "Lato";
+	font-size: 10px;
+	padding: 2px 4px;
+	}
+
+	.payment{
+	padding-left: 10px;
+	}
+
+	.cartitem{
+
+	list-style: none;
+	border-top: solid;
+	border-color: #D4D3CF;
+	border-width:1px;
+	padding:4px 0px 10px 0px;
+	}
+
+	#incart{
+	right: 0%;
+	padding-left:0px;
+	}
+
+	.tb1{
+	height:10px;
+	width: 25px;
+	font-size:9px;
+
+	}
+
+	#removefromcart{
+	margin-left: 15px;
+	padding-right: 35px;
+	width:20px;
+	font-size: 8px;
+	text-align: left;
+	}
+
+	#delete{
+	margin-left: 15px;
+	padding-right: 35px;
+	width:20px;
+	font-size: 8px;
+	text-align: left;
+	}
+
+	#shipping{
+	padding-left:800px;
+	margin-top:0px;
+	position: center;
+	}
+	
