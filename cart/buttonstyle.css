@@ -13,7 +13,7 @@ nav ul ul{
 
 	nav ul li:hover > ul {
 		display:table-cell;
-		z-index: 3;
+		z-index: 11;
 		
 	}
 
@@ -35,7 +35,7 @@ nav ul ul{
 	color:#BF1F19;
 	display:table;
 	min-width: 100px;
-
+	z-index:4;
 
 	
 	width:100px;
