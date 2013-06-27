@@ -28,35 +28,6 @@ form{
 	right:130px;
 }
 
-#searchbutton{
-	z-index: 3;
-	position:absolute;
-	top:5px;
-	right:70px;
-
-}
-
-#cart{
-	z-index: 3;
-	position:absolute;
-	top:10px;
-	right:10px;
-
-}
-
-	#cart:hover{
-		text-decoration: underline;
-	}
-
-
-
-.buttons{
-	position:relative;
-	z-index: 0;
-	top:0%;
-	text-decoration: none;
-	padding-right:100%;
-}
 
 #imageview {
 	top:0px;
@@ -102,7 +73,7 @@ form{
 		background-color:#009AB0;
 	}
 
-.textcolumn{
+.feedbackcolumn{
 
 	position:absolute;
 	left:50%;
@@ -111,10 +82,14 @@ form{
 	padding: 15px;
 
 }
-	#description{
+	.feedback{
 		font-family: "LATO";
 		font-weight: 300;
+		padding-bottom: 40px;
+		line-height: 1.5em;
+		font-size: 0.9em;
 	}
+
 .purchasecolumn{
 	
 	position:absolute;
@@ -123,10 +98,6 @@ form{
 	left:76%;
 }
 	
-	#orderprice{
-
-	}
-
 
 #crumbcontainer{
 	padding-top:20px;
@@ -153,20 +124,47 @@ h2{
 	margin-top:5px;
 }
 
-#searchButton{
-	top:7px;
-	right:73px;
-	position:absolute;
-	background-color: red;
-	font-family: "LATO";
-	font-size:0.8em;
-	color:white;
-	z-index:5;
-	padding:6px 8px 5px 8px;
+#feedbacksection{
+	padding:5px 5px 5px 10px;
+	background-color: #009AB0;
 }
 
-#searchButton{
-	background-color: #009AB0;
+#myfeedback{
+	color:white;
+	margin-top:5px;
+}
+
+.name{
+
+	border-width:1px;
+	padding-top: 20px;
+	margin-bottom:5px;
+	border-top: solid;
+	font-size: 14px;
 	font-family: "LATO";
-	font-size:0.7em;
+	border-color: #BF1F19;
+
+}
+
+.date{
+	font-size: 10px;
+}
+
+#myname, #myemail, #myrant{
+	width:95%;
+}
+
+#myrant{
+	margin-bottom: 5px;
+	width:95%;
+	max-width:95%;
+	min-width:95%
+}
+
+button{
+	width:100px;
+	left:5px;
+	bottom:5px;
+	margin:0px;
+	margin-bottom:20px;
 }

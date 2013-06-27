@@ -1,0 +1,13 @@
+#item, #stock, #qty, #delete, #price{
+
+	color: white;
+	font-family: "LATO";
+	font-size: 14px;
+	padding:5px 15px 0px 15px;
+
+
+}
+
+#stock, #qty, #delete, #price{
+	float:right;
+	}

@@ -6,6 +6,8 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<meta name ="viewport" content="width=device-wdith">
 		<link rel="stylesheet" href="style.css" title="style" type="text/css" media="screen" charset="UTF-8"/>
+
+		<link rel="stylesheet" href="topbar.css" title="style" type="text/css" media="screen" charset="utf-8">
 		<link rel="stylesheet" href="buttonstyle.css" title="style" type="text/css" media="screen" charset="UTF-8"/>
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Arvo:700' rel='stylesheet' type='text/css'>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" charset="utf-8"></script>
@@ -16,7 +18,7 @@
 	</head>
 	<body>
 		<header>
-			<h1 id="homelink"><a href="#">THETOYFACTORY</a></h1>
+			<h1 id="homelink"><a href="../index.html">THETOYFACTORY</a></h1>
 		</header>
 		<!--===================================Search Bar Form=================================-->
 		<form action ="Search">
@@ -25,12 +27,12 @@
 
 
 		<!--===================================Search Button===================================-->
-		<button id="searchbutton" type="button">Go!</button>
+		<a id= "searchButton" href="../productlist/productlist.html">Search!</a>
 
 
 		<!--===================================Search Button===================================-->
 	
-		<a id="cart" href ="#">My Cart</a>
+		<a id="cart" href ="../cart/cart.html">My Cart</a>
 
 		<!--===================================Nav bare and buttons============================-->
 
@@ -38,54 +40,62 @@
 			<ul class="homecolumn">
 				<!-- Insert button links or ways to deal with it -->
 				<!--On sale (new page) -->
-				<li class="homebuttons"><a href = "#" class="center">On Sale</a></li>
+				<li class="homebuttons"><a href = "../productlist/productlist.html" class="center">On Sale</a></li>
 				<!-- Catalogue (shows catagory buttons in grid) -->
-				<li class="homebuttons"><a href = "#" class="center" >Browse Catalogue</a>
+				<li class="homebuttons"><a href = "../productlist/productlist.html" class="center" >Browse Catalogue</a>
 					<ul>
 						<!-- AGE -->
-						<li class="subbutton"><a href ="#">New Born</a></li>
-						<li class="subbutton"><a href ="#">Age 1-2</a></li>
-						<li class="subbutton"><a href ="#">Age 3-4</a></li>
-						<li class="subbutton"><a href ="#">Age 5-8</a></li>
-						<li class="subbutton"><a href ="#">Age 9-12</a></li>
-						<li class="subbutton"><a href ="#">Age 13+</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">New Born</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Age 1-2</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Age 3-4</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Age 5-8</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Age 9-12</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Age 13+</a></li>
 						
 						<!-- Brand -->						
-						<li class="subbutton"><a href ="#">Disney</a></li>
-						<li class="subbutton"><a href ="#">Hasbro</a></li>
-						<li class="subbutton"><a href ="#">Mattel</a></li>
-						<li class="subbutton"><a href ="#">Lego</a></li>
-						<li class="subbutton"><a href ="#">Import</a></li>
-						<li class="subbutton"><a href ="#">The Toy Factory</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Disney</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Hasbro</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Mattel</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Lego</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Import</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">The Toy Factory</a></li>
 					
 						<!-- Catagory -->
-						<li class="subbutton"><a href ="#">Electronics</a></li>
-						<li class="subbutton"><a href ="#">Sports</a></li>
-						<li class="subbutton"><a href ="#">Board Games</a></li>
-						<li class="subbutton"><a href ="#">Collectibles</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Electronics</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Sports</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Board Games</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Collectibles</a></li>
 					</ul>
 				</li>
 				<!-- Most popular(new page)-->
-				<li class="homebuttons"><a href = "#" class="center" >Most Popular</a></li>
+				<li class="homebuttons"><a href = "../productlist/productlist.html" class="center" >Most Popular</a></li>
 			</ul>
 		</nav>
 
 		<section id="featuredColumn">
-			<h1 id="title">Featured Import Products</h1>
+
+			<div id="crumbcontainer">
+				<a class ="breadcrumbs" href ="../productlist/productlist.html">Home > </a>
+				<a class ="breadcrumbs" href ="../productlist/productlist.html">Age 5-7 > </a>
+				<a class ="breadcrumbs" href ="../productlist/productlist.html">Import > </a>
+				<a class ="breadcrumbs" href ="../productlist/productlist.html">Takara > </a>
+			</div>
+
+			<h2 id="title">Featured Import Products</h2>
 
 			<ul id="productlist">
 				<li class = "product">
 					<img class="thumb" src="http://placehold.it/100x100" alt="#"></img>
-					<a href="#" class="featureditems">Item 1</a>
-					<a href="#"  class="atc">Add to Cart</a>
+					<a href="../product/product.html" class="featureditems">Item 1</a>
+					<a href="../cart/cart.html"  class="atc">Add to Cart</a>
 					<span class="price">$6.99</span>
 					
 				</li>
 
 				<li class = "product">
 					<img class="thumb" src="http://placehold.it/100x100" alt="#"></img>
-					<a href="#" class="featureditems">Item 2</a>
-					<a href="#"  class="atc">Add to Cart</a>
+					<a href="../product/product.html" class="featureditems">Item 2</a>
+					<a href="../cart/cart.html"  class="atc">Add to Cart</a>
 					<span class="price">$6.99</span>
 					
 				</li>
@@ -93,68 +103,69 @@
 				<li class = "product">
 
 					<img class="thumb" src="http://placehold.it/100x100" alt="#"></img>
-					<a href="#" class="featureditems">Item 3</a>
-					<a href="#"  class="atc">Add to Cart</a>
+					<a href="../product/product.html" class="featureditems">Item 3</a>
+					<a href="../cart/cart.html"  class="atc">Add to Cart</a>
 					<span class="price">$6.99</span>
 					
 				</li>
 
 				<li class = "product">
 					<img class="thumb" src="http://placehold.it/100x100" alt="#"></img>
-					<a href="#"  class="featureditems">Item 4</a>
-					<a href="#"  class="atc">Add to Cart</a>
+					<a href="../product/product.html"  class="featureditems">Item 4</a>
+					<a href="../cart/cart.html"  class="atc">Add to Cart</a>
 					<span class="price">$6.99</span>
 					
 				</li>
 
 				<li class = "product">
 					<img class="thumb" src="http://placehold.it/100x100" alt="#"></img>
-					<a href="#" class="featureditems">Item 5</a>
-					<a href="#"  class="atc">Add to Cart</a>
+					<a href="../product/product.html" class="featureditems">Item 5</a>
+					<a href="../cart/cart.html"  class="atc">Add to Cart</a>
 					<span class="price">$6.99</span>
 					
 				</li>
 
 				<li class = "product">
 					<img class="thumb" src="http://placehold.it/100x100" alt="#"></img>
-					<a href="#" class="featureditems">Item 6</a>
-					<a href="#"  class="atc">Add to Cart</a>
+					<a href="../product/product.html" class="featureditems">Item 6</a>
+					<a href="../cart/cart.html"  class="atc">Add to Cart</a>
 					<span class="price">$6.99</span>
 					
 				</li>
 
 				<li class = "product">
 					<img class="thumb" src="http://placehold.it/100x100" alt="#"></img>
-					<a href="#" class="featureditems">Item 7</a>
-					<a href="#"  class="atc">Add to Cart</a>
+					<a href="../product/product.html" class="featureditems">Item 7</a>
+					<a href="../cart/cart.html"  class="atc">Add to Cart</a>
 					<span class="price">$6.99</span>
 					
 				</li>
 
 				<li class = "product">
 					<img class="thumb" src="http://placehold.it/100x100" alt="#"></img>
-					<a href="#" class="featureditems">Item 8</a>
-						<a href="#"  class="atc">Add to Cart</a>
+					<a href="../product/product.html" class="featureditems">Item 8</a>
+					<a href="../cart/cart.html"  class="atc">Add to Cart</a>
 					<span class="price">$6.99</span>
 				</li>
 
 				<li class = "product">
 					<img class="thumb" src="http://placehold.it/100x100" alt="#">
-					<a href="#" class="featureditems">Item 9</a>
-						<a href="#"  class="atc">Add to Cart</a>
+					<a href="../product/product.html" class="featureditems">Item 9</a>
+					<a href="../cart/cart.html"  class="atc">Add to Cart</a>
 					<span class="price">$6.99</span>
 				</li>
 			</ul>
 
+
+			<section id="pages">
+				<span>Pages:</span>
+				<a class="pagenumbers" href="../productlist/productlist.html">1</a>
+				<a class="pagenumbers" href="../productlist/productlist.html">2</a>
+				<a class="pagenumbers" href="../productlist/productlist.html">3</a>
+				<a class="pagenumbers" href="../productlist/productlist.html">4</a>
+				<a class="pagenumbers" href="../productlist/productlist.html">5</a>
 		</section>
-		<section id="pages">
-			<span>Pages:</span>
-			<a href="#">1</a>
-			<a href="#">2</a>
-			<a href="#">3</a>
-			<a href="#">4</a>
-			<a href="#">5</a>
-		</section>
+	</section>
 		
 	</body>
 </html>

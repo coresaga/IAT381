@@ -1,7 +1,7 @@
 html, body { font-size: 100%; height: 100%;overflow-x:hidden;}
 
 body {
-	font-family: sans-serif;
+	font-family: "LATO";
 	font-weight: normal;
 	font-style: normal;
 	line-height: 1;
@@ -20,53 +20,14 @@ a, a:visited, a:hover, a:link{
 }
 
 
-header {
-	width: 100%;
-	height: 38px;
-	background: #3A3F42;
-	padding: 0 20px;
-	position: relative;
-	z-index: 2;
-	text-decoration: none;
-}
-
-h1{
-	font-family:"Arvo";
-	font-weight: normal;
-	color:black;
-	font-size: 25px;
-	position:absolute;
-	top:-10;
-}
-
 
 form{
 	position:absolute;
 	top:5px;
 	z-index: 3;
 	float:right;
-	right:110px;
+	right:130px;
 }
-
-#searchbutton{
-	z-index: 3;
-	position:absolute;
-	top:5px;
-	right:70px;
-
-}
-
-#cart{
-	z-index: 3;
-	position:absolute;
-	top:10px;
-	right:10px;
-
-}
-
-	#cart:hover{
-		text-decoration: underline;
-	}
 
 
 
@@ -119,6 +80,6 @@ form{
 	}
 
 	.change1:hover, .change2:hover, .change3:hover, .change4:hover{
-		color:009AB0;
-		background-color:009AB0;
+		color:#009AB0;
+		background-color:#009AB0;
 	}
