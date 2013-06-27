@@ -119,3 +119,11 @@ form{
 
 
 	}
+	#boughtitems{
+	list-style: none;
+	}
+
+	.itemname{
+	font-weight:heavy;
+	
+	}
