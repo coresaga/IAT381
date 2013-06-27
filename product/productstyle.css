@@ -185,6 +185,7 @@ h2{
 
 #stock{
 	display:block;
+	margin-top:50px;
 }
 
 #quantity{
@@ -196,4 +197,23 @@ h2{
 	
 	width:45px;
 
+}
+
+#about{
+	left:50px;
+	padding: 5px 15px 5px 15px;
+	font-size: 12px;
+	background-color: #009AB0;
+	position:absolute;
+	top:430px;
+}
+
+
+#atc{
+	display:block;
+	padding: 5px 15px 5px 15px;
+	font-size: 14px;
+	background-color: #009AB0;
+	position:absolute;
+	margin-top:10px;
 }

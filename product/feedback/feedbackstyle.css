@@ -174,7 +174,7 @@ button{
 }
 
 
-#orderprice, #stock, #quantity, #orderqty{
+ #price, #stock, #quantity, #orderqty{
 	display:inline;
 }
 
@@ -183,14 +183,14 @@ button{
 	
 }
 #price{
-	display:inline;
 
 	margin-left:20px;
-	margin-top:23px;
+	margin-top:50px;
 }
 
 #stock{
 	display:block;
+	margin-top:50px;
 }
 
 #quantity{
@@ -202,4 +202,25 @@ button{
 	
 	width:45px;
 
+}
+
+
+#about{
+	
+	left:50px;
+	padding: 5px 15px 5px 15px;
+	font-size: 12px;
+	background-color: #009AB0;
+	position:absolute;
+	top:430px;
+}
+
+
+#atc{
+	display:block;
+	padding: 5px 15px 5px 15px;
+	font-size: 14px;
+	background-color: #009AB0;
+	position:absolute;
+	margin-top:10px;
 }

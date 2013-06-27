@@ -226,3 +226,12 @@ form{
 .optionbuttons:hover{
 	background-color: #009AB0;
 }
+
+#about{
+	left:50px;
+	padding: 5px 15px 5px 15px;
+	font-size: 12px;
+	background-color: #009AB0;
+	position:absolute;
+	top:430px;
+}

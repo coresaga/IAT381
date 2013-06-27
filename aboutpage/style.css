@@ -53,104 +53,36 @@ form{
 		height: 100%;
 		position: relative;
 		background-color: #cde7f2;
-		background-image: url('./img/Munny.jpg');
+		background-image: url('../img/about.jpg');
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		z-index: 1;
 	}
 
-
-
-	.invoicecolumn{
-		min-width: 295px;
-		position:absolute;
-		top:50px;
-		left:200px;
-	}
-
-	#ty{
-	font-family: "LATO";
-	font-size: 25px;
-	border-bottom: solid;
-	border-color: #D4D3CF;
-	border-width:2px;
+#abouttext{
+	position:absolute;
 	top:50px;
-	
-	list-style: none;
-	
-	}
-
-	#tytext{
-	top:100px;
-	max-width: 600px;
-	line-height: 1.8em;
-
-	}
-
-
-	.Final{
-	font-family:"LATO";
-
-	
-	padding: 0px 50px 0px 50px;
-	border-bottom: solid;
-	border-color: #D4D3CF;
-	border-width:2px;
-	bottom:200px;
-	margin: 0px 0px 0px 10px;
-	}
-
-
-	#boughtitems{
-	list-style: none;
-	left:0px;
-	padding-left:0px;
-	}
-
-	.category{
-	font-size: 12px;
-	margin-right:50px;
-
-	}
-
-
-
-.items, .items:visited{
-	color: black
-	left:0px;
+	left:200px;
+	right:50%;
+	z-index: 5;
+	color:white;
 }
-
-
-
-#link1, #link1:visited{
-	font-size: 12px;
-	margin-right:5px;
-	color:black;
-}
-
-	.link1:hover{
-		color:#009AB0
-	}
-
-
-
-
-#link2, #link2:visited{
-	font-size: 12px;
-	margin-right:5px;
-	color:black;
-}
-
-	.link2:hover{
-		color:#009AB0;
-	}
 
 #about{
+	z-index: 10;
 	left:50px;
 	padding: 5px 15px 5px 15px;
 	font-size: 12px;
 	background-color: #009AB0;
 	position:absolute;
 	top:430px;
+	z-index: 5;
+}
+
+p{
+	font-family: "LATO";
+	line-height: 1.8em;
+	z-index: 5;
+	color:white;
 }

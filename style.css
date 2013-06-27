@@ -71,6 +71,7 @@ form{
 	height:20px;
 	right:0%;
 	z-index: 5;
+	color:gray;
 
 	}
 
@@ -83,3 +84,13 @@ form{
 		color:#009AB0;
 		background-color:#009AB0;
 	}
+
+#about{
+	z-index: 10;
+	left:50px;
+	padding: 5px 15px 5px 15px;
+	font-size: 12px;
+	background-color: #009AB0;
+	position:absolute;
+	top:430px;
+}

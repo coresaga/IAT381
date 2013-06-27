@@ -3,16 +3,15 @@
 
 <html>
 	<head>
-		<title>Check Out- The Toy Factory </title>
+		<title>About Us - The Toy Factory</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<meta name ="viewport" content="width=device-wdith">
 		<link rel="stylesheet" href="style.css" title="style" type="text/css" media="screen" charset="utf-8">
 		<link rel="stylesheet" href="topbar.css" title="style" type="text/css" media="screen" charset="utf-8">
-		<link rel="stylesheet" href="category.css" title="style" type="text/css" media="screen" charset="utf-8">
 		<link rel="stylesheet" href="buttonstyle.css" title="style" type="text/css" media="screen" charset="utf-8">
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Arvo:700' rel='stylesheet' type='text/css'>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" charset="utf-8"></script>
-		
+		<script src="toyfactory.js" charset="utf-8"></script>
 
 
 		
@@ -22,7 +21,7 @@
 			<h1 id="homelink"><a href="../index.html">THETOYFACTORY</a></h1>
 		</header>
 		<!--===================================Search Bar Form=================================-->
-		<form action ="Search">
+		<form action ="search">
 			<input type ="text" name ="searchbox" placeholder ="Search here!"><br>
 		</form>
 
@@ -30,8 +29,7 @@
 		<!--===================================Search Button===================================-->
 		<a id= "searchButton" href="../productlist/productlist.html">Search!</a>
 
-
-		<!--===================================Cart Button===================================-->
+		<!--===================================Search Button===================================-->
 	
 		<a id="cart" href ="../cart/cart.html">My Cart</a>
 
@@ -43,15 +41,15 @@
 				<!--On sale (new page) -->
 				<li class="homebuttons"><a href = "../productlist/productlist.html" class="center">On Sale</a></li>
 				<!-- Catalogue (shows catagory buttons in grid) -->
-				<li class="homebuttons"><a href = "../productlist/productlist.html" class="center" >Browse Catalogue</a>
+				<li class="homebuttons"><a href = "#" class="center">Browse Catalogue</a>
 					<ul>
 						<!-- AGE -->
 						<li class="subbutton"><a href ="../productlist/productlist.html">New Born</a></li>
 						<li class="subbutton"><a href ="../productlist/productlist.html">Age 1-2</a></li>
 						<li class="subbutton"><a href ="../productlist/productlist.html">Age 3-4</a></li>
-						<li class="subbutton"><a href ="../productlist/productlist.html">Age 5-8</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html" >Age 5-8</a></li>
 						<li class="subbutton"><a href ="../productlist/productlist.html">Age 9-12</a></li>
-						<li class="subbutton"><a href ="../../productlist/productlist.html">Age 13+</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html" >Age 13+</a></li>
 						
 						<!-- Brand -->						
 						<li class="subbutton"><a href ="../productlist/productlist.html">Disney</a></li>
@@ -73,39 +71,33 @@
 			</ul>
 		</nav>
 
-		<section class="invoicecolumn">
+		<!--===================================About us text=================================-->
 
-			<h2 id="ty"> Thank you for Shopping at Toy Factory!</h2>
-			<p id="tytext"> Your transactions have successfully gone through.Listed below are the following transactions that have been processed.To keep up to date of your purchase please follow up your order with the tracking number below. Thanks again for shopping at the Toy Factory.</p>
+		<section id="abouttext">
+			<h2>Two Oversized Kids</h2>
+			<p>What started out as a personal collection of toys and action figures, Jaime Anderson met another passionate collector, Kenneth Chow in 1993. They immediately became best friends. Their love for toys kickstarted a small local buisness 5 years later. At then it was not called The Toy Factory yet, Chow and Anderson were only 15 back then. It was a local collection redistribution. Kids would trade in their collection for others. Slowly they started taking orders from friends and family and eventually clients started to come from all over and the rest is history.
+			</p>
 
-				<div id="item">
-					<span class="Final">Item Purchased</span>
-					<span class="Final">Customer Information</span>
-					<span class="Final">Tracking Number</span>
-				</div>
-			
-			<ul id="boughtitems">
-				<li class="items"><a id="link1" href ="../transactionspage/transaction.html" > Item 1</a>
-					<span class="category">Lego Star Wars Action Deluxe Set</span>
-					<span class="category"> Rob Alderson </span>
-					<button class ="category" type="button">Payment Info</button>
-					<span class="category">#401112432090</span>		
-					</li>
-
-
-				<li class="items"><a id="link2" href ="../transactionspage/transaction.html" > Item 3</a>
-					<span class="category">Batman: Arkham Asylum Figurine</span>
-					<span class="category"> Rick Johnson </span>
-					<button class ="category" type="button">Payment Info</button>
-					<span class="category">#096234534765</span>		
-				</li>
-			</ul>
+			<h2>How To Reach Us</h2>
+			<p>By Phone: 604-488-8788<br>
+			By Email: factory@ttf.ca<br><br>
+			Where we are located: <br> 6311 197 St. Langley, BC<br>
+			V2Y 1K8
+			</p>
 		</section>
 
+		<!--===================================About us page link============================-->
 		<section id="about">
-			<a href="../aboutpage/aboutus.html">About us</a>
+			<a href="">About us</a>
 		</section>
+
+	<section id="wrapper">
+			<section id="canvas"></section>
+		</section>
+
+
 
 	</body>
 </html>
 
+	
