@@ -21,4 +21,4 @@ $(document).ready(function() {
 	$(".change4").click(function() {
 		$("#large").css("background-image", "url('../img/4.jpg')");
 	});
-});s
+});
