@@ -1,0 +1,6 @@
+/* Styles for screens that are atleast 768px; */
+@media only screen and (max-width: 400px){
+#imageview{
+	top:600px;
+	}
+}
