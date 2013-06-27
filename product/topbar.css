@@ -48,3 +48,12 @@ h1{
 	#cart:hover{
 		text-decoration: underline;
 	}
+
+
+form{
+	position:absolute;
+	top:5px;
+	z-index: 3;
+	float:right;
+	right:130px;
+}

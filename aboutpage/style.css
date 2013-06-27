@@ -65,7 +65,7 @@ form{
 	top:50px;
 	left:200px;
 	right:50%;
-	z-index: 5;
+	z-index: 2;
 	color:white;
 }
 
@@ -77,12 +77,18 @@ form{
 	background-color: #009AB0;
 	position:absolute;
 	top:430px;
-	z-index: 5;
+	z-index: 2;
 }
 
 p{
 	font-family: "LATO";
 	line-height: 1.8em;
-	z-index: 5;
+	z-index: 2;
 	color:white;
+}
+
+.title{
+	padding-bottom: 10px;
+	border-bottom:solid;
+	border-width:1px;
 }

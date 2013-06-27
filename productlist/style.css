@@ -27,42 +27,13 @@ h2{
 
 }
 
-
-form{
-	position:absolute;
-	top:5px;
-	z-index: 3;
-	float:right;
-	right:130px;
-}
-
-#searchbutton{
-	z-index: 3;
-	position:absolute;
-	top:5px;
-	right:70px;
-
-}
-
-
-
-.buttons{
-	position:relative;
-	z-index: 3;
-	top:0%;
-	text-decoration: none;
-	padding-right:100%;
-
-
-}
-
 #featuredColumn{
 	top:55px;
 	left:200px;
 	right:15%;
 	bottom:0px;
 	position:absolute;
-	z-index:100;
+	z-index:2;
 	
 	}
 

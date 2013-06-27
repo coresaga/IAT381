@@ -13,7 +13,7 @@ nav ul ul{
 
 	nav ul li:hover > ul {
 		display:table-cell;
-		z-index: 11;
+		z-index: 3;
 		
 	}
 

@@ -20,21 +20,9 @@ a, a:visited, a:hover{
 }
 
 
-form{
-	position:absolute;
-	top:5px;
-	z-index: 3;
-	float:right;
-	right:130px;
-}
 
-#searchbutton{
-	z-index: 3;
-	position:absolute;
-	top:5px;
-	right:70px;
 
-}
+
 
 #cart{
 	z-index: 3;
