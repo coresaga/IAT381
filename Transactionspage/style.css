@@ -20,19 +20,6 @@ a, a:visited, a:hover, a:link{
 }
 
 
-
-form{
-	position:absolute;
-	top:5px;
-	z-index: 3;
-	float:right;
-	right:130px;
-}
-
-
-
-
-
 #wrapper {
 	top:37px;
 	bottom:0;
