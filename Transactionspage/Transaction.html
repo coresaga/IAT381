@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+		<title>My Cart - The Toy Factory </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name ="viewport" content="width=device-wdith">
+		<link rel="stylesheet" href="style.css" title="style" type="text/css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="topbar.css" title="style" type="text/css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="category.css" title="style" type="text/css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="buttonstyle.css" title="style" type="text/css" media="screen" charset="utf-8">
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Arvo:700' rel='stylesheet' type='text/css'>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" charset="utf-8"></script>
+		
+
+
+		
+	</head>
+	<body>
+		<header>
+			<h1 id="homelink"><a href="../index.html">THETOYFACTORY</a></h1>
+		</header>
+		<!--===================================Search Bar Form=================================-->
+		<form action ="Search">
+			<input type ="text" name ="searchbox" placeholder ="Search here!"><br>
+		</form>
+
+
+		<!--===================================Search Button===================================-->
+		<a id= "searchButton" href="../productlist/productlist.html">Search!</a>
+
+
+		<!--===================================Cart Button===================================-->
+	
+		<a id="cart" href ="../cart/cart.html">My Cart</a>
+
+		<!--===================================Nav bare and buttons============================-->
+
+		<nav class="buttons">
+			<ul class="homecolumn">
+				<!-- Insert button links or ways to deal with it -->
+				<!--On sale (new page) -->
+				<li class="homebuttons"><a href = "../productlist/productlist.html" class="center">On Sale</a></li>
+				<!-- Catalogue (shows catagory buttons in grid) -->
+				<li class="homebuttons"><a href = "../productlist/productlist.html" class="center" >Browse Catalogue</a>
+					<ul>
+						<!-- AGE -->
+						<li class="subbutton"><a href ="../productlist/productlist.html">New Born</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Age 1-2</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Age 3-4</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Age 5-8</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Age 9-12</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Age 13+</a></li>
+						
+						<!-- Brand -->						
+						<li class="subbutton"><a href ="../productlist/productlist.html">Disney</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Hasbro</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Mattel</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Lego</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Import</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">The Toy Factory</a></li>
+					
+						<!-- Catagory -->
+						<li class="subbutton"><a href ="../productlist/productlist.html">Electronics</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Sports</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Board Games</a></li>
+						<li class="subbutton"><a href ="../productlist/productlist.html">Collectibles</a></li>
+					</ul>
+				</li>
+				<!-- Most popular(new page)-->
+				<li class="homebuttons"><a href = "../productlist/productlist.html" class="center" >Most Popular</a></li>
+			</ul>
+		</nav>
+
+
+		<h2> Thank you for Shopping at Toy Factory!</h2>
+		<p> Your transactions have successfully gone through.Listed below are the following transactions that have been processed.To keep up to date of your purchase please follow up your order with the tracking number below. Thanks again for shopping at the Toy Factory.</p>
+			<div id="item">
+				<span class="Final">Item Purchased</span>
+				<span class="Final">Customer Information</span>
+				<span class="Final">Tracking Number</span>
+			</div>
+
