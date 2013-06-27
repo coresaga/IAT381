@@ -1,0 +1,158 @@
+html, body { height: 100%; overflow-x: hidden;}
+
+body {
+	font-family: "LATO";
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1;
+	background: #F7F7F7;
+	color: #333333;
+	padding: 0;
+	margin: 0;
+	position: relative;
+
+}
+
+a, a:visited, a:hover{
+	color:white;
+	text-decoration: none;
+	
+}
+
+
+form{
+	position:absolute;
+	top:5px;
+	z-index: 3;
+	float:right;
+	right:130px;
+}
+
+
+.buttons{
+	position:relative;
+	z-index: 0;
+	top:0%;
+	text-decoration: none;
+	padding-right:100%;
+}
+
+#imageview {
+	top:0px;
+	left:200px;
+	right:50%;
+	bottom:0px;
+	position:absolute;
+	}
+
+	#large { 
+		margin-top:55px;
+		width: 100%;
+		height: 50%;
+		
+		background-color: #cde7f2;
+		background-image: url('http://placehold.it/500x300');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		z-index: 1;
+	}
+
+.thumbs{
+	}
+
+.change1, .change2, .change3, .change4{
+	
+	margin-right:10px;
+	padding-top: 15px;
+	width:80px;
+	height:80px;
+	right:0%;
+	z-index: 5;
+}
+
+
+	.change1:visited, .change2:visited, .change3:visited, .change4:visited{
+		color:gray;
+	}
+
+	.change1:hover, .change2:hover, .change3:hover, .change4:hover{
+		color:#009AB0;
+		background-color:#009AB0;
+	}
+
+.feedbackcolumn{
+
+	position:absolute;
+	left:50%;
+	width:26%;
+	top:20px;
+	padding: 15px;
+
+}
+	.feedback{
+		font-family: "LATO";
+		font-weight: 300;
+		padding-bottom: 40px;
+		line-height: 1.5em;
+		font-size: 0.9em;
+	}
+
+.purchasecolumn{
+	
+	position:absolute;
+	padding:20px 30px 0px 30px; 
+	top:20px;
+	left:76%;
+}
+	
+	#orderprice{
+
+	}
+
+
+#crumbcontainer{
+	padding-top:20px;
+}
+
+
+.breadcrumbs{
+	font-family: "LATO";
+	font-size: 0.8em;
+	color:#787875;
+	padding:5px 10px 5px 5px;
+	}
+
+	.breadcrumbs:visited{
+		color:#787875;
+	}
+
+	.breadcrumbs:hover{
+		background-color: #009AB0;
+		color:white;
+	}
+
+h2{
+	margin-top:5px;
+}
+
+.name{
+	border-width:1px;
+	padding-top: 20px;
+	margin-bottom:5px;
+	border-top: solid;
+	font-size: 14px;
+	font-family: "LATO";
+	border-color: #BF1F19;
+
+}
+
+.date{
+	font-size: 10px;
+}
+
+#myrant{
+	width:100%;
+	padding-bottom:200px;
+
+}
