@@ -202,3 +202,56 @@ form{
 		background-color: #3A3F42;
 	}
 
+	.extrabuttons{
+	list-style: none;
+	}
+
+	.Updatecart{
+	left:200px;
+	top:45px;
+	position:absolute;
+	float:left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right:10px;
+	color: white;
+	font-family: "LATO";
+	font-size:12px;
+	background-color:#3A3F42;
+
+	}
+
+	.Continueshopping{
+	top:45px;
+	left:300px;
+	position:absolute;
+	float:left;
+	background-color:#3A3F42;
+	color: white;
+	font-family: "LATO";
+	font-size:12px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right:5px
+
+	}
+
+	.Checkouts{
+	top:45px;
+	left:435px;
+	position:absolute;
+	float:left;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right:5px;
+	color: white;
+	font-family: "LATO";
+	font-size:12px;
+	background-color:#3A3F42;
+	}
