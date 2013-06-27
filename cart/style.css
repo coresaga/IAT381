@@ -215,27 +215,13 @@ form{
 	padding: 8px 10px 8px 10px;
 	margin-top:0px;
 	margin-left:5px;
+	background-color:#BF1F19;
 
-<<<<<<< HEAD
+
 	}
 
-	a.Updatecart:hover{
-	background-color:#009AB0
-	}
 
-	.Continueshopping{
-	top:45px;
-	left:300px;
-	position:absolute;
-	float:left;
-	background-color:#3A3F42;
-	color: white;
-=======
-	font-size:14px;
-	background-color:#BF1F19;	
->>>>>>> cart buttons fixed
-	font-family: "LATO";
-}
+
 
 .optionbuttons:hover{
 	background-color: #009AB0;
