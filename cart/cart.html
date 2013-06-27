@@ -8,6 +8,7 @@
 		<meta name ="viewport" content="width=device-wdith">
 		<link rel="stylesheet" href="style.css" title="style" type="text/css" media="screen" charset="utf-8">
 		<link rel="stylesheet" href="topbar.css" title="style" type="text/css" media="screen" charset="utf-8">
+		<link rel="stylesheet" href="category.css" title="style" type="text/css" media="screen" charset="utf-8">
 		<link rel="stylesheet" href="buttonstyle.css" title="style" type="text/css" media="screen" charset="utf-8">
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900|Arvo:700' rel='stylesheet' type='text/css'>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" charset="utf-8"></script>
@@ -77,47 +78,56 @@
 
 		<section id="cartColumn">
 			<h2>Shopping Cart</h2>
-			<div id="columns">
-				<span class="category">Item</span>
-				<span class="category">Stock</span>
-				<span class="category">Quantity</span>
-				<span class="category">Delete</span>
-				<span class="category">Price</span>
+			<div id="category">
+				<span id="item">Item</span>
+				<span id="price">Price</span>
+				<span id="delete">Delete</span>
+				<span id="qty">Quantity</span>
+				<span id="stock">Stock</span>			
 			</div>
 
 			<ul id="incart">
-
 				<li class= "cartitem"><a href ="../product/product.html" class="pLink">Product 1</a>
-					<span class="stock">In Stock</span>
-					<input class="tb1" type="number" name="qbox" placeholder="1" min="1" >
+					<span class="cost">$6.99</span>
 					<button class="removefromcart" type="button">Remove</button>
-					<span class="payment">$6.99</span>
+					<input class="qtybox" type="number" name="qbox" placeholder="1" min="1" >
+					<span class="stock">In Stock</span>		
 				</li>
 
 				<li class= "cartitem"><a href ="../product/product.html" class="pLink">Product 2</a>
-					<span class="stock">In Stock</span>
-					<input class="tb1" type="number" name="qbox" placeholder="1" min="1" >
+					<span class="cost">$6.99</span>
 					<button class="removefromcart" type="button">Remove</button>
-					<span class="payment">$6.99</span>
+					<input class="qtybox" type="number" name="qbox" placeholder="1" min="1" >
+					<span class="stock">In Stock</span>		
 				</li>
+
+				<li class= "cartitem"><a href ="../product/product.html" class="pLink">Product 2</a>
+					<span class="cost">$6.99</span>
+					<button class="removefromcart" type="button">Remove</button>
+					<input class="qtybox" type="number" name="qbox" placeholder="1" min="1" >
+					<span class="stock">In Stock</span>		
+				</li>
+
+					<li class= "cartitem"><a href ="../product/product.html" class="pLink">Product 2</a>
+					<span class="cost">$6.99</span>
+					<button class="removefromcart" type="button">Remove</button>
+					<input class="qtybox" type="number" name="qbox" placeholder="1" min="1" >
+					<span class="stock">In Stock</span>		
+				</li>
+
+				
+
 			</ul>
 
-
-		</section>
-			
 			<section id="shipping">
-					<h2>Shipping</h2>
-					<span class="postal">Postal Code:</span>
-					<input class="tb2" type="value" name="areacode" maxlength="6">
-					<button id="calculate" type="button">Calculate Shipping</button>
-				</div>
-
-				<div id="total">
-					<span class="total">Your Total: </span><span class="totalprice">$13.98</span>
-		
+					<div id="shippingbg">
+						<span class="postal">Postal Code:</span>
+						<input class="postalentry" type="value" name="areacode" maxlength="6">
+						<button id="calculate" type="button">Calculate Shipping</button>
+						<span class="totalprice">$13.98</span>	
+						<span class="total">Your Total: </span>
+					</div>
 			</section>
-
-
 		<section id="optionsColumn">
 			<ul>
 				<li><a href="#">Update Cart</a></li>
@@ -127,6 +137,8 @@
 
 		</section>
 
+		</section>
+			
 
 		
 	</body>

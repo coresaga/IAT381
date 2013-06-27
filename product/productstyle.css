@@ -1,7 +1,7 @@
 html, body { height: 100%; overflow-x: hidden;}
 
 body {
-	font-family: sans-serif;
+	font-family: "LATO";
 	font-weight: normal;
 	font-style: normal;
 	line-height: 1;
@@ -56,11 +56,11 @@ form{
 	top:0%;
 	text-decoration: none;
 	padding-right:100%;
-	}
+}
 
 #imageview {
 	top:0px;
-	left:230px;
+	left:200px;
 	right:50%;
 	bottom:0px;
 	position:absolute;
@@ -98,8 +98,8 @@ form{
 	}
 
 	.change1:hover, .change2:hover, .change3:hover, .change4:hover{
-		color:009AB0;
-		background-color:009AB0;
+		color:#009AB0;
+		background-color:#009AB0;
 	}
 
 .textcolumn{
@@ -169,6 +169,4 @@ h2{
 	background-color: #009AB0;
 	font-family: "LATO";
 	font-size:0.7em;
-
-	
 }

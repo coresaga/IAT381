@@ -15,3 +15,36 @@ h1{
 	position:absolute;
 	top:-10px;
 }
+
+#searchButton{
+	top:7px;
+	right:73px;
+	position:absolute;
+	background-color: red;
+	font-family: "LATO";
+	font-size:0.8em;
+	color:white;
+	z-index:5;
+	padding:6px 8px 5px 8px;
+}
+
+	#searchButton{
+		background-color: #009AB0;
+		font-family: "LATO";
+		font-size:0.7em;
+
+		
+	}
+
+
+#cart{
+	z-index: 3;
+	position:absolute;
+	top:10px;
+	right:10px;
+
+}
+
+	#cart:hover{
+		text-decoration: underline;
+	}
