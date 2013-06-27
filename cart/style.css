@@ -146,7 +146,7 @@ form{
 
 
 	#shipping{
-		top:200px;
+		
 		position:relative;
 		right:0px;
 		margin-top: 20px;
@@ -196,33 +196,27 @@ form{
 	}
 
 	#shippingbg{
-		top:500px;
 		padding-top:4px;
 		padding-bottom:4px;
 		background-color: #3A3F42;
 	}
 
-	.extrabuttons{
+
+.extrabuttons{
+	display:block;
 	list-style: none;
+	padding-left:0px;
 	}
 
-	.Updatecart{
-	left:200px;
-	top:45px;
-	position:absolute;
-	float:left;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-right:10px;
-	color: white;
-	font-family: "LATO";
-	font-size:12px;
-	background-color:#3A3F42;
 
+.optionbuttons{
+	float:right;
+	display:inline;
+	padding: 8px 10px 8px 10px;
+	margin-top:0px;
+	margin-left:5px;
 
-
+<<<<<<< HEAD
 	}
 
 	a.Updatecart:hover{
@@ -236,28 +230,13 @@ form{
 	float:left;
 	background-color:#3A3F42;
 	color: white;
+=======
+	font-size:14px;
+	background-color:#BF1F19;	
+>>>>>>> cart buttons fixed
 	font-family: "LATO";
-	font-size:12px;
-	padding-bottom: 5px;
-	padding-top: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-right:5px
+}
 
-	}
-
-	.Checkouts{
-	top:45px;
-	left:435px;
-	position:absolute;
-	float:left;
-	padding-bottom: 5px;
-	padding-top: 5px;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-right:5px;
-	color: white;
-	font-family: "LATO";
-	font-size:12px;
-	background-color:#3A3F42;
-	}
+.optionbuttons:hover{
+	background-color: #009AB0;
+}
